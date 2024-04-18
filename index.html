@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="src/scripts/tailwindcss.js" defer></script>
+
+    <title>blog preview card</title>
+</head>
+<body>
+    <main class="w-screen h-screen bg-yellow-500 flex items-center justify-center ">
+        
+        <div class="container w-[327px] h-[501px] bg-white rounded-xl shadow-card flex flex-col items-center md:w-[384px] md:h-[522px] md:shadow-cardMd">
+
+            <img src="src/assets/img/blogimage.png" alt="blog" class="mt-[24px] md:w-[336px]">
+
+            <div class="mt-[24px] w-[279px] flex flex-col gap-[12px] md:w-[336px]">
+
+                <a href="#" class="bg-yellow-500 w-[74px] h-[26px] font-bold  text-[12px] flex items-center justify-center p-2 rounded-lg">Learning</a>
+
+                <p class="text-[12px] font-bold">Published 17 Apr 2024</p>
+
+                <h1 class="text-[20px] font-extrabold hover:text-yellow-500 hover:cursor-pointer">HTML & CSS foundations</h1>
+
+                <p class="text-gray-500 text-[14px]">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+
+            </div>
+            <div class="w-[279px] mt-[24px] flex items-center md:w-[336px]">
+
+                <img src="src/assets/img/userpic.png" alt="user" class="mr-[12px]">
+
+                <h2 class="font-extrabold">Greg Hooper</h2>
+
+            </div>
+        </div>        
+    </main>
+</body>
+</html>
